@@ -2,6 +2,11 @@
 
 * {
     font-family: "Inter Tight", serif;
+    /* box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;  */
 }
 
 header {
@@ -33,5 +38,70 @@ header {
 .intro p{
     color:#445218;
     font-size: 1.75rem;
+    font-weight: 400;
     text-align: center;
+}
+
+.recipes-bg {
+    background-color: #C0CC9B;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.recipes-title {
+    color: #243010;
+    /* font-size: 2rem; */
+    margin-left: 1rem;
+    padding: 2rem;
+    /* justify-self: start; */
+}
+
+.recipes-title h2 {
+    text-align: left;
+    justify-self: start;
+}
+
+.recipe{
+    background-color: white;
+    max-width: fit-content;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.recipe h6{
+    padding-left: 1rem;
+    color: #87A330;
+    font-weight: 600;
+}
+
+.recipe h3{
+    padding-left: 1rem;
+    color: #243010;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.recipe p{
+    padding-left: 1rem;
+    color: #445218;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tags{
+    display: flex;
+}
+
+.tags p{
+    background-color: #C0CC9B;
+    border-radius: 1rem;
+    color: #445218;
+    margin: 1rem;
+    padding: 0.1rem 0.6rem 0.1rem 0.6rem;
 }
